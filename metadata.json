@@ -1,0 +1,6 @@
+{
+  "name": "Verdant Sustainable Gardening",
+  "description": "Showcase for eco-friendly, circular gardening products with an interactive email signup and guide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

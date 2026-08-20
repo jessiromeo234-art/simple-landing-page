@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-verdant-dark: #142A16;
+  --color-verdant-primary: #2D5A27;
+  --color-verdant-medium: #3A6B34;
+  --color-verdant-light: #EBF3EA;
+  --color-verdant-stone: #F8F7F3;
+  --color-verdant-accent: #E5C365;
+}
+
+:root {
+  --bg-stone: #F8F7F3;
+  --text-dark: #1E2B20;
+  --border-subtle: rgba(45, 90, 39, 0.12);
+  --border-strong: rgba(45, 90, 39, 0.25);
+  --shadow-warm: 0 4px 20px -2px rgba(20, 42, 22, 0.06), 0 2px 6px -1px rgba(20, 42, 22, 0.04);
+  --shadow-hover: 0 10px 30px -4px rgba(20, 42, 22, 0.12), 0 4px 12px -2px rgba(20, 42, 22, 0.08);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-stone);
+  color: var(--text-dark);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom CSS utility classes for HTML elements */
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.verdant-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-warm);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.verdant-card:hover {
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
+.verdant-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.625rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  border-radius: 9999px;
+  background-color: #FAF8F5;
+  color: #20441D;
+  border: 1px solid rgba(45, 90, 39, 0.15);
+}
+
+.verdant-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  background-color: #2D5A27;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.verdant-btn-primary:hover {
+  background-color: #22471e;
+  box-shadow: 0 4px 14px rgba(45, 90, 39, 0.25);
+  transform: translateY(-1px);
+}
+
+.verdant-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+  color: #244E20;
+  border: 1px solid rgba(45, 90, 39, 0.25);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.verdant-btn-secondary:hover {
+  background-color: #F2F7F0;
+  border-color: #2D5A27;
+}
+
+.verdant-input {
+  width: 100%;
+  padding: 0.625rem 0.875rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(45, 90, 39, 0.2);
+  background-color: #ffffff;
+  color: #1A311D;
+  font-size: 0.8125rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.verdant-input:focus {
+  outline: none;
+  border-color: #2D5A27;
+  box-shadow: 0 0 0 3px rgba(45, 90, 39, 0.15);
+}
+
+/* Custom details / summary CSS styling */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideLeft {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(16px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes scale {
+  from { transform: scale(0.96); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slideLeft {
+  animation: slideLeft 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-scale {
+  animation: scale 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+

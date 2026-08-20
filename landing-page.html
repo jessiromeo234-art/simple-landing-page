@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verdant | Sustainable Gardening Essentials</title>
+  <meta name="description" content="Discover zero-waste, 100% biodegradable and circular gardening products for a thriving, eco-conscious garden.">
+  
+  <!-- Google Fonts: Fraunces & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Pure CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" id="announcement-bar">
+    🌱 Spring 2026 Release: Free Carbon-Neutral Shipping on all living soil kits with code <strong>VERDANT15</strong>
+  </aside>
+
+  <!-- Sticky Site Header -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-wrapper">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" id="brand-logo">
+        <div class="brand-icon">🌿</div>
+        <span>Verdant<span class="brand-dot">.</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#philosophy" class="nav-link">Our Standards</a></li>
+          <li><a href="#calculator" class="nav-link">Impact Calculator</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="nav-actions">
+        <a href="#signup" class="btn btn-pill btn-pill-light" id="nav-free-guide-btn">
+          Get Free Field Guide
+        </a>
+        <button type="button" class="cart-btn" id="cart-bag-btn" aria-label="View eco bag">
+          🛒
+          <span class="badge-counter" id="cart-count">0</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Column: Copy & CTAs -->
+          <div class="hero-content">
+            <span class="pill-tag">
+              ✨ 100% Peat-Free & Plastic-Neutral
+            </span>
+
+            <h1 class="hero-title">
+              Cultivate an Abundant Garden <em>in Harmony</em> with the Earth.
+            </h1>
+
+            <p class="hero-lead">
+              Biodegradable seedling pots, living compost elixirs, and zero-plastic gardening supplies crafted from circular agricultural byproducts.
+            </p>
+
+            <div class="hero-guarantees">
+              <div class="guarantee-item">✓ 100% Peat-Free Formula</div>
+              <div class="guarantee-item">✓ Zero Virgin Plastics</div>
+              <div class="guarantee-item">✓ Carbon Neutral Delivery</div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#products" class="btn btn-primary" id="hero-explore-btn">
+                Explore Sustainable Products →
+              </a>
+              <a href="#signup" class="btn btn-secondary" id="hero-guide-btn">
+                Claim 15% Off & Free Field Guide
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Visual Card -->
+          <aside class="hero-card">
+            <div class="hero-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1000&q=80" 
+                alt="Gardener holding organic heirloom seedlings in compostable pots"
+              >
+              <div class="hero-card-overlay">
+                <span class="pill-tag" style="background:#2D5A27; color:#FFF; border:none; margin-bottom:0.5rem;">
+                  Certified B-Corp Standard
+                </span>
+                <h3>Living Soil Micro-Ecosystems</h3>
+                <p>Every gram of our soil supports over 1 billion beneficial fungal colonies.</p>
+              </div>
+            </div>
+
+            <div class="hero-stats-row">
+              <div class="hero-stat-box">
+                <div class="hero-stat-icon">🍂</div>
+                <div>
+                  <div class="hero-stat-num">12,400+</div>
+                  <div class="hero-stat-sub">Sq. Ft. Peat Bogs Protected</div>
+                </div>
+              </div>
+              <div class="hero-stat-box">
+                <div class="hero-stat-icon">💧</div>
+                <div>
+                  <div class="hero-stat-num">4.2M Gal</div>
+                  <div class="hero-stat-sub">Irrigation Water Saved</div>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT ACCOUNTABILITY BAR -->
+    <section class="impact-section" id="impact-bar">
+      <div class="container text-center">
+        <span class="pill-tag" style="background:#2C502E; color:#A6E3A0; border-color:#3C6E3F;">
+          Audited Environmental Balance
+        </span>
+        <h2 class="font-serif" style="font-size: 2rem; color: #FFF; margin-top: 0.5rem;">
+          Measurable Restoration with Every Harvest
+        </h2>
+
+        <div class="impact-grid">
+          <article class="impact-card">
+            <div class="impact-icon">🌿</div>
+            <div class="impact-val">42.8 Tons</div>
+            <div class="impact-lbl">Virgin Plastic Diverted</div>
+            <p class="impact-desc">100% fiber-based seedling trays that biodegrade into natural hummus.</p>
+          </article>
+
+          <article class="impact-card">
+            <div class="impact-icon">💧</div>
+            <div class="impact-val">70% Less</div>
+            <div class="impact-lbl">Water Evaporation</div>
+            <p class="impact-desc">Subterranean porous terracotta ollas delivering hydration directly to root tips.</p>
+          </article>
+
+          <article class="impact-card">
+            <div class="impact-icon">🐝</div>
+            <div class="impact-val">100% Native</div>
+            <div class="impact-lbl">Non-GMO Seed Stock</div>
+            <p class="impact-desc">Open-pollinated heirloom seeds supporting wild honeybees and native butterflies.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUSTAINABLE PRODUCTS SHOWCASE -->
+    <section class="products-section" id="products">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-tag">Zero-Waste Marketplace</span>
+          <h2 class="section-title">Essential Tools for the Conscious Grower</h2>
+          <p class="section-desc">
+            Engineered for durability, crafted from renewable plant materials, and built to regenerate our shared earth.
+          </p>
+        </header>
+
+        <!-- Product Filter Bar -->
+        <div class="filter-bar">
+          <div class="filter-pills" id="category-filter-group">
+            <button type="button" class="filter-btn active" data-category="all">All Products (6)</button>
+            <button type="button" class="filter-btn" data-category="soil">Soil & Substrates</button>
+            <button type="button" class="filter-btn" data-category="pots">Pots & Seedlings</button>
+            <button type="button" class="filter-btn" data-category="water">Water Systems</button>
+            <button type="button" class="filter-btn" data-category="tools">Tools & Care</button>
+          </div>
+          <span style="font-size:0.75rem; color:#556F57;">Showing eco-certified collection</span>
+        </div>
+
+        <!-- Products Grid Container -->
+        <div class="products-grid" id="products-container">
+
+          <!-- Product Card 1 -->
+          <article class="product-card" data-category="pots">
+            <figure class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb22513?auto=format&fit=crop&w=700&q=80" alt="Zero-Waste Seed Starting Starter Pack">
+              <div class="product-badges">
+                <span class="badge">100% Plastic-Free</span>
+                <span class="badge">Home Compostable</span>
+              </div>
+            </figure>
+            <div class="product-body">
+              <header>
+                <div class="product-meta">
+                  <span class="stars">★ 4.9 <small style="color:#556F57;">(128)</small></span>
+                  <span style="font-size:0.6875rem; text-transform:uppercase; color:#2D5A27; font-weight:700;">Pots & Seeds</span>
+                </div>
+                <h3 class="product-title">Seed Starter Bio-Trays</h3>
+                <p class="product-tagline">Molded from recycled coconut husks. Plant directly into garden beds with zero root shock.</p>
+              </header>
+              <aside class="impact-pill">
+                <span class="impact-pill-label">Plastic Saved:</span>
+                <span class="impact-pill-val">18 single-use trays</span>
+              </aside>
+              <footer class="product-footer">
+                <span class="product-price">$24.00</span>
+                <button type="button" class="btn btn-primary add-bag-btn" data-name="Seed Starter Bio-Trays" data-price="24.00">
+                  + Add to Bag
+                </button>
+              </footer>
+            </div>
+          </article>
+
+          <!-- Product Card 2 -->
+          <article class="product-card" data-category="soil">
+            <figure class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=700&q=80" alt="Regenerative Living Soil Potting Blend">
+              <div class="product-badges">
+                <span class="badge">100% Peat-Free</span>
+                <span class="badge">Biochar Enriched</span>
+              </div>
+            </figure>
+            <div class="product-body">
+              <header>
+                <div class="product-meta">
+                  <span class="stars">★ 5.0 <small style="color:#556F57;">(245)</small></span>
+                  <span style="font-size:0.6875rem; text-transform:uppercase; color:#2D5A27; font-weight:700;">Soil & Compost</span>
+                </div>
+                <h3 class="product-title">Living Soil Potting Mix</h3>
+                <p class="product-tagline">Inoculated with mycorrhizal fungi, worm castings, and biochar to lock in moisture for 3x bigger yields.</p>
+              </header>
+              <aside class="impact-pill">
+                <span class="impact-pill-label">Carbon Sequestered:</span>
+                <span class="impact-pill-val">3.4 kg CO2e / bag</span>
+              </aside>
+              <footer class="product-footer">
+                <span class="product-price">$18.50</span>
+                <button type="button" class="btn btn-primary add-bag-btn" data-name="Living Soil Potting Mix" data-price="18.50">
+                  + Add to Bag
+                </button>
+              </footer>
+            </div>
+          </article>
+
+          <!-- Product Card 3 -->
+          <article class="product-card" data-category="water">
+            <figure class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1598880940371-c756e015fea1?auto=format&fit=crop&w=700&q=80" alt="Ancient Clay Terracotta Olla Pot">
+              <div class="product-badges">
+                <span class="badge">Saves 70% Water</span>
+                <span class="badge">Handcrafted Clay</span>
+              </div>
+            </figure>
+            <div class="product-body">
+              <header>
+                <div class="product-meta">
+                  <span class="stars">★ 4.8 <small style="color:#556F57;">(94)</small></span>
+                  <span style="font-size:0.6875rem; text-transform:uppercase; color:#2D5A27; font-weight:700;">Water Systems</span>
+                </div>
+                <h3 class="product-title">Sub-Surface Irrigation Olla</h3>
+                <p class="product-tagline">Bury in your garden bed for continuous subterranean root irrigation through porous micropores.</p>
+              </header>
+              <aside class="impact-pill">
+                <span class="impact-pill-label">Water Efficiency:</span>
+                <span class="impact-pill-val">70% Less Evaporation</span>
+              </aside>
+              <footer class="product-footer">
+                <span class="product-price">$32.00</span>
+                <button type="button" class="btn btn-primary add-bag-btn" data-name="Sub-Surface Irrigation Olla" data-price="32.00">
+                  + Add to Bag
+                </button>
+              </footer>
+            </div>
+          </article>
+
+          <!-- Product Card 4 -->
+          <article class="product-card" data-category="tools">
+            <figure class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1617576683096-00fc8eecb3af?auto=format&fit=crop&w=700&q=80" alt="Hand-Forged Carbon Steel Garden Trowel">
+              <div class="product-badges">
+                <span class="badge">Lifetime Guarantee</span>
+                <span class="badge">FSC Ash Wood</span>
+              </div>
+            </figure>
+            <div class="product-body">
+              <header>
+                <div class="product-meta">
+                  <span class="stars">★ 4.9 <small style="color:#556F57;">(87)</small></span>
+                  <span style="font-size:0.6875rem; text-transform:uppercase; color:#2D5A27; font-weight:700;">Tools</span>
+                </div>
+                <h3 class="product-title">Heritage Ashwood Trowel</h3>
+                <p class="product-tagline">Forged from recycled carbon steel and salvaged FSC-certified ash wood. The last trowel you'll ever buy.</p>
+              </header>
+              <aside class="impact-pill">
+                <span class="impact-pill-label">Durability:</span>
+                <span class="impact-pill-val">100-Year Life Cycle</span>
+              </aside>
+              <footer class="product-footer">
+                <span class="product-price">$28.00</span>
+                <button type="button" class="btn btn-primary add-bag-btn" data-name="Heritage Ashwood Trowel" data-price="28.00">
+                  + Add to Bag
+                </button>
+              </footer>
+            </div>
+          </article>
+
+          <!-- Product Card 5 -->
+          <article class="product-card" data-category="tools">
+            <figure class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=700&q=80" alt="Indoor Kitchen Bokashi Fermenter Kit">
+              <div class="product-badges">
+                <span class="badge">Zero Odor</span>
+                <span class="badge">Ferments All Food</span>
+              </div>
+            </figure>
+            <div class="product-body">
+              <header>
+                <div class="product-meta">
+                  <span class="stars">★ 4.7 <small style="color:#556F57;">(63)</small></span>
+                  <span style="font-size:0.6875rem; text-transform:uppercase; color:#2D5A27; font-weight:700;">Composting</span>
+                </div>
+                <h3 class="product-title">Bokashi Kitchen Composter</h3>
+                <p class="product-tagline">Anaerobic countertop system that safely ferments table scraps including citrus and cooked food.</p>
+              </header>
+              <aside class="impact-pill">
+                <span class="impact-pill-label">Waste Diverted:</span>
+                <span class="impact-pill-val">300 lbs/year</span>
+              </aside>
+              <footer class="product-footer">
+                <span class="product-price">$45.00</span>
+                <button type="button" class="btn btn-primary add-bag-btn" data-name="Bokashi Kitchen Composter" data-price="45.00">
+                  + Add to Bag
+                </button>
+              </footer>
+            </div>
+          </article>
+
+          <!-- Product Card 6 -->
+          <article class="product-card" data-category="pots">
+            <figure class="product-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&w=700&q=80" alt="Organic Pollinator Seed Bombs">
+              <div class="product-badges">
+                <span class="badge">Native Seed Mix</span>
+                <span class="badge">Clay & Compost Matrix</span>
+              </div>
+            </figure>
+            <div class="product-body">
+              <header>
+                <div class="product-meta">
+                  <span class="stars">★ 5.0 <small style="color:#556F57;">(112)</small></span>
+                  <span style="font-size:0.6875rem; text-transform:uppercase; color:#2D5A27; font-weight:700;">Seeds & Flora</span>
+                </div>
+                <h3 class="product-title">Wild Pollinator Seed Bombs</h3>
+                <p class="product-tagline">Handmade seed balls filled with 16 native wildflower varieties to restore bee and butterfly sanctuaries.</p>
+              </header>
+              <aside class="impact-pill">
+                <span class="impact-pill-label">Pollinator Habitat:</span>
+                <span class="impact-pill-val">50 sq ft coverage</span>
+              </aside>
+              <footer class="product-footer">
+                <span class="product-price">$16.00</span>
+                <button type="button" class="btn btn-primary add-bag-btn" data-name="Wild Pollinator Seed Bombs" data-price="16.00">
+                  + Add to Bag
+                </button>
+              </footer>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY & PILLARS SECTION -->
+    <section class="philosophy-section" id="philosophy">
+      <div class="container">
+        
+        <header class="section-header text-center">
+          <span class="section-tag">Our Ethical Manifesto</span>
+          <h2 class="section-title">The 4 Pillars of Closed-Loop Gardening</h2>
+          <p class="section-desc" style="margin: 0 auto;">
+            Traditional gardening consumes massive amounts of peat bogs and single-use plastics. We built a circular supply chain to heal nature instead of taking from it.
+          </p>
+        </header>
+
+        <div class="pillars-grid">
+          <article class="pillar-card">
+            <div>
+              <span class="pillar-stat">Pillar 01</span>
+              <h3 class="pillar-title">100% Peat Bog Preservation</h3>
+              <p class="pillar-desc">
+                Peat bogs store more carbon than all global forests combined. We strictly formulate our living soils using recycled tree bark and coconut coir.
+              </p>
+            </div>
+          </article>
+
+          <article class="pillar-card">
+            <div>
+              <span class="pillar-stat">Pillar 02</span>
+              <h3 class="pillar-title">Zero Virgin Plastics</h3>
+              <p class="pillar-desc">
+                Every seedling tray, label, and pot is molded from natural plant starch, untreated wood, or upcycled agricultural husks.
+              </p>
+            </div>
+          </article>
+
+          <article class="pillar-card">
+            <div>
+              <span class="pillar-stat">Pillar 03</span>
+              <h3 class="pillar-title">Microbiome Bio-Inoculation</h3>
+              <p class="pillar-desc">
+                Instead of chemical synthetics that deplete organic life, our soil boosters feature mycorrhizae and beneficial fungal networks.
+              </p>
+            </div>
+          </article>
+
+          <article class="pillar-card">
+            <div>
+              <span class="pillar-stat">Pillar 04</span>
+              <h3 class="pillar-title">Lifetime Circular Guarantee</h3>
+              <p class="pillar-desc">
+                Tools forged from high-carbon reclaimed steel backed by our repair-or-replace promise for generations of growing.
+              </p>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTERACTIVE IMPACT CALCULATOR -->
+    <section class="calculator-section" id="calculator">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-tag">Your Personal Green Footprint</span>
+          <h2 class="section-title">Calculate Your Backyard Eco-Contribution</h2>
+          <p class="section-desc">
+            Select your growing environment to estimate annual plastic diversion and water savings when you switch to circular practices.
+          </p>
+        </header>
+
+        <div class="calc-box">
+          
+          <!-- Interactive Selector Controls -->
+          <div class="calc-inputs">
+            <div>
+              <span class="calc-label">1. Choose Your Growing Space:</span>
+              <div class="space-buttons" id="calc-space-buttons">
+                <button type="button" class="space-btn active" data-space="balcony" data-plastic="14" data-water="220" data-co2="38">
+                  <div class="space-btn-title">Balcony & Patio</div>
+                  <div class="space-btn-sub">4-8 containers & pots</div>
+                </button>
+                <button type="button" class="space-btn" data-space="raised-bed" data-plastic="42" data-water="680" data-co2="115">
+                  <div class="space-btn-title">Raised Garden Beds</div>
+                  <div class="space-btn-sub">2-4 medium planter boxes</div>
+                </button>
+                <button type="button" class="space-btn" data-space="backyard" data-plastic="96" data-water="1850" data-co2="290">
+                  <div class="space-btn-title">Backyard Plot</div>
+                  <div class="space-btn-sub">200-500 sq. ft. veggie garden</div>
+                </button>
+                <button type="button" class="space-btn" data-space="homestead" data-plastic="230" data-water="4500" data-co2="780">
+                  <div class="space-btn-title">Homestead / Orchard</div>
+                  <div class="space-btn-sub">Half-acre regenerative plot</div>
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <span class="calc-label">2. Estimated Annual Carbon Offset:</span>
+              <p style="font-size:0.8125rem; color:#465E49;">
+                Calculated based on lifecycle peat substitution, local compost recycling, and gravity-fed subterranean watering.
+              </p>
+            </div>
+          </div>
+
+          <!-- Dynamic Output Results -->
+          <div class="calc-results-box">
+            <div>
+              <span class="pill-tag" style="background:#244826; color:#A6E3A0; border:none; margin-bottom:1rem;">
+                Estimated Annual Savings
+              </span>
+              <div class="calc-results-grid">
+                <div class="calc-result-tile">
+                  <div class="calc-result-lbl">Plastic Trays Diverted</div>
+                  <div class="calc-result-num" id="calc-out-plastic">14 Trays</div>
+                </div>
+                <div class="calc-result-tile">
+                  <div class="calc-result-lbl">Water Conserved</div>
+                  <div class="calc-result-num" id="calc-out-water">220 Gallons</div>
+                </div>
+                <div class="calc-result-tile">
+                  <div class="calc-result-lbl">CO2 Absorbed</div>
+                  <div class="calc-result-num" id="calc-out-co2">38 kg CO2e</div>
+                </div>
+                <div class="calc-result-tile">
+                  <div class="calc-result-lbl">Peat Moss Protected</div>
+                  <div class="calc-result-num" id="calc-out-peat">100% Zero Peat</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="border-top:1px solid #365F3A; padding-top:1rem;">
+              <a href="#signup" class="btn btn-accent" style="width:100%;">
+                Get Your Tailored Planting Plan →
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EMAIL SIGNUP & FREE FIELD GUIDE (HIGH CONVERSION) -->
+    <section class="signup-section" id="signup">
+      <div class="container">
+        
+        <div class="signup-card">
+          
+          <!-- Left Column: Guide Details -->
+          <div class="signup-content">
+            <span class="pill-tag" style="background:#2C502E; color:#A6E3A0; border-color:#3E6F41;">
+              🎁 Free Field Guide + 15% Off
+            </span>
+
+            <h2 class="font-serif" style="font-size:2.25rem; color:#FFF; line-height:1.15;">
+              Join the Regenerative Gardeners Collective
+            </h2>
+
+            <p style="font-size:0.9375rem; color:#D4E8D2; font-weight:300;">
+              Receive our seasonal sowing guide, organic pest prevention formulas, and instant access to our welcome promo code.
+            </p>
+
+            <aside class="signup-guide-preview">
+              <div class="signup-guide-icon">
+                📖
+                <span>28 PAGES</span>
+              </div>
+              <div>
+                <strong style="display:block; font-size:0.875rem; color:#FFF;">
+                  "The Zero-Waste Gardener's Field Handbook"
+                </strong>
+                <p style="font-size:0.75rem; color:#A8C7A5;">
+                  Includes DIY Bokashi fermentation recipes, peat-free potting blends, and native companion planting matrices.
+                </p>
+              </div>
+            </aside>
+
+            <ul style="list-style:none; display:flex; flex-direction:column; gap:0.5rem; font-size:0.8125rem; color:#BED8BC;">
+              <li>✓ Instant 15% coupon code for your initial order</li>
+              <li>✓ Monthly zero-waste sowing calendars tailored to your zone</li>
+              <li>✓ Strict zero-spam guarantee (1-click unsubscribe anytime)</li>
+            </ul>
+          </div>
+
+          <!-- Right Column: Semantic Form & Success State -->
+          <div>
+            
+            <!-- Standard Form -->
+            <form class="form-box" id="email-signup-form" method="POST" action="javascript:void(0);">
+              <div>
+                <h3 class="font-serif" style="font-size:1.25rem; color:#FFF;">
+                  Claim Your Free Guide & 15% Code
+                </h3>
+                <p style="font-size:0.75rem; color:#B5D4B2;">
+                  Enter your email below to unlock immediate access.
+                </p>
+              </div>
+
+              <fieldset class="form-grid" style="border:none; padding:0; margin:0;">
+                <div class="form-group">
+                  <label for="subscriber-name" class="form-label">Your Name (Optional)</label>
+                  <input type="text" id="subscriber-name" name="name" class="form-input" placeholder="e.g. Rowan">
+                </div>
+
+                <div class="form-group">
+                  <label for="subscriber-email" class="form-label">Email Address <span style="color:#E5C365;">*</span></label>
+                  <input type="email" id="subscriber-email" name="email" required class="form-input" placeholder="your.email@domain.com">
+                </div>
+              </fieldset>
+
+              <fieldset style="border:none; padding:0; margin:0;">
+                <legend class="form-label" style="margin-bottom:0.5rem;">Topics of Interest:</legend>
+                <div class="interests-grid">
+                  <label class="interest-checkbox-label">
+                    <input type="checkbox" name="interests" value="Living Soil" checked>
+                    <span>Peat-Free Living Soil</span>
+                  </label>
+                  <label class="interest-checkbox-label">
+                    <input type="checkbox" name="interests" value="Water Conservation" checked>
+                    <span>Subterranean Ollas</span>
+                  </label>
+                  <label class="interest-checkbox-label">
+                    <input type="checkbox" name="interests" value="Pollinators">
+                    <span>Native Pollinators</span>
+                  </label>
+                  <label class="interest-checkbox-label">
+                    <input type="checkbox" name="interests" value="Bokashi">
+                    <span>Kitchen Bokashi</span>
+                  </label>
+                </div>
+              </fieldset>
+
+              <button type="submit" class="btn btn-accent" id="submit-signup-btn" style="padding:0.875rem 1.5rem; font-size:0.9375rem;">
+                Unlock Free Guide & 15% Code →
+              </button>
+
+              <div style="font-size:0.6875rem; color:#7EA67C; text-align:center;">
+                🔒 Zero spam pledge. Your email remains safe with us.
+              </div>
+            </form>
+
+            <!-- Unlocked Success Box (Hidden by default) -->
+            <div class="form-box" id="signup-success-box" style="display:none; text-align:center; gap:1.25rem;">
+              <div style="font-size:2.5rem;">🎉</div>
+              <div>
+                <span class="pill-tag" style="background:#2C502E; color:#A6E3A0; border:none;">
+                  You're in the Collective!
+                </span>
+                <h3 class="font-serif" style="font-size:1.5rem; color:#FFF; margin-top:0.5rem;" id="success-user-name">
+                  Welcome to Verdant!
+                </h3>
+                <p style="font-size:0.8125rem; color:#CFE4CD;" id="success-user-email">
+                  We've registered your email for our seasonal dispatches.
+                </p>
+              </div>
+
+              <!-- Promo Code Card -->
+              <div style="background:#172E19; border:1px solid #356138; padding:1rem; border-radius:0.75rem; display:flex; align-items:center; justify-content:space-between;">
+                <div style="text-align:left;">
+                  <div style="font-size:0.625rem; text-transform:uppercase; color:#8CB788; font-weight:700;">15% Promo Code</div>
+                  <div style="font-size:1.125rem; font-family:monospace; font-weight:700; color:#E5C365;">VERDANT15</div>
+                </div>
+                <button type="button" class="btn btn-pill btn-pill-light" id="copy-code-btn">
+                  Copy Code
+                </button>
+              </div>
+
+              <!-- Instant Handbook Download Trigger -->
+              <button type="button" class="btn btn-accent" id="download-handbook-btn">
+                📥 Download 28-Page Field Handbook (.txt)
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- COMMUNITY REVIEWS & TESTIMONIALS -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        
+        <header class="section-header text-center">
+          <span class="section-tag">Grower Stories</span>
+          <h2 class="section-title">Cultivating Abundance Worldwide</h2>
+          <p class="section-desc" style="margin: 0 auto;">
+            See how urban balcony growers and rural homesteaders transformed their gardens into thriving, zero-waste habitats.
+          </p>
+        </header>
+
+        <div class="reviews-grid">
+          <article class="review-card">
+            <span class="stars">★★★★★</span>
+            <blockquote class="review-quote">
+              "The living potting mix is unlike anything from big-box stores. My heirloom tomatoes developed huge fungal root networks within weeks."
+            </blockquote>
+            <footer class="review-author-row">
+              <div>
+                <div class="author-name">Elena Vasquez</div>
+                <div class="author-type">Balcony Urban Grower • Seattle, WA</div>
+              </div>
+              <span class="badge">Verified Purchase</span>
+            </footer>
+          </article>
+
+          <article class="review-card">
+            <span class="stars">★★★★★</span>
+            <blockquote class="review-quote">
+              "We survived a 95°F heatwave with 70% less watering thanks to the subterranean terracotta ollas. Absolutely transformative."
+            </blockquote>
+            <footer class="review-author-row">
+              <div>
+                <div class="author-name">Marcus Sterling</div>
+                <div class="author-type">Raised Bed Gardener • Austin, TX</div>
+              </div>
+              <span class="badge">Verified Purchase</span>
+            </footer>
+          </article>
+
+          <article class="review-card">
+            <span class="stars">★★★★★</span>
+            <blockquote class="review-quote">
+              "Finally, seed starting trays that don't crack into microplastics! Planting them straight into the beds saved me hours of transplant shock."
+            </blockquote>
+            <footer class="review-author-row">
+              <div>
+                <div class="author-name">Dr. Sarah Jenkins</div>
+                <div class="author-type">Permaculture Agronomist • Portland, OR</div>
+              </div>
+              <span class="badge">Verified Purchase</span>
+            </footer>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FREQUENTLY ASKED QUESTIONS (SEMANTIC DETAILS & SUMMARY) -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        
+        <header class="section-header text-center">
+          <span class="section-tag">Clear Answers</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-desc" style="margin: 0 auto;">
+            Everything you need to know about our circular materials, plastic-free delivery, and living soil biology.
+          </p>
+        </header>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary class="faq-summary">Why is 100% peat-free soil crucial for the climate?</summary>
+            <div class="faq-answer">
+              Peat bogs cover only 3% of the world's land surface but store nearly 30% of all land-based carbon. Harvesting peat releases massive amounts of ancient carbon into the atmosphere. Our living soil utilizes aged forest humus, buffered coconut coir, and biochar to deliver superior aeration without destroying peatlands.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-summary">How do subterranean irrigation ollas work?</summary>
+            <div class="faq-answer">
+              Ollas are unglazed terracotta vessels buried neck-deep in your garden bed. When filled with water, moisture slowly leaches through the porous clay walls directly to surrounding plant roots based on soil suction, cutting surface evaporation by up to 70%.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-summary">Do the biodegradable coconut seed trays really break down?</summary>
+            <div class="faq-answer">
+              Yes! Unlike plastic pots that end up in landfills or 'biodegradable' PLA bioplastics that require industrial heat, our coconut husk fiber trays decompose naturally in your backyard compost or soil bed within 8 to 12 weeks, adding valuable organic mulch to the earth.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-summary">How does your 100% plastic-free shipping work?</summary>
+            <div class="faq-answer">
+              We use unbleached recycled cardboard boxes, water-activated kraft paper tape, and biodegradable cornstarch cushioning peanuts that dissolve instantly in warm water.
+            </div>
+          </details>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <div class="brand-logo" style="color:#FFF;">
+            <div class="brand-icon">🌿</div>
+            <span>Verdant<span class="brand-dot">.</span></span>
+          </div>
+          <p style="font-size:0.8125rem; color:#A2C7A6; max-width:24rem;">
+            Empowering regenerative gardeners with circular, plastic-free, and peat-free tools crafted to heal our living soils.
+          </p>
+          <div style="font-size:0.75rem; color:#6E9973;">
+            1% for the Planet Member • Certified B-Corporation Standard
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="#products">Living Soil Blends</a></li>
+            <li><a href="#products">Compostable Pots</a></li>
+            <li><a href="#products">Irrigation Ollas</a></li>
+            <li><a href="#products">Ashwood Tools</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Education</h4>
+          <ul class="footer-links">
+            <li><a href="#signup">Free Field Handbook</a></li>
+            <li><a href="#calculator">Backyard Impact Tool</a></li>
+            <li><a href="#philosophy">Peat-Free Manifesto</a></li>
+            <li><a href="#faq">Growing FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Environmental Pledge</h4>
+          <ul class="footer-links">
+            <li><a href="#">Carbon Audit Report</a></li>
+            <li><a href="#">Zero Plastic Guarantee</a></li>
+            <li><a href="#">Seed Sovereignty</a></li>
+            <li><a href="#">Soil Microbiology Lab</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Verdant Sustainable Gardening Co. All rights reserved.</div>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Stewardship</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING NOTIFICATION TOAST -->
+  <div class="toast-msg" id="toast-message">
+    <span>🌱</span>
+    <span id="toast-text">Item added to your sustainable bag!</span>
+  </div>
+
+  <!-- PURE VANILLA JAVASCRIPT FOR INSTANT CLIENT INTERACTIONS -->
+  <script>
+    // 1. Toast Alert Helper
+    function showToast(message) {
+      const toast = document.getElementById('toast-message');
+      const toastText = document.getElementById('toast-text');
+      if (!toast || !toastText) return;
+      toastText.textContent = message;
+      toast.style.display = 'flex';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 3500);
+    }
+
+    // 2. Product Category Filtering
+    const filterButtons = document.querySelectorAll('#category-filter-group .filter-btn');
+    const productCards = document.querySelectorAll('#products-container .product-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const category = btn.getAttribute('data-category');
+        productCards.forEach(card => {
+          if (category === 'all' || card.getAttribute('data-category') === category) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // 3. Cart Bag Counter
+    let bagCount = 0;
+    const cartCountEl = document.getElementById('cart-count');
+    const addBagButtons = document.querySelectorAll('.add-bag-btn');
+
+    addBagButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        bagCount++;
+        if (cartCountEl) cartCountEl.textContent = bagCount;
+        const name = btn.getAttribute('data-name');
+        showToast(`Added ${name} to your zero-waste bag!`);
+      });
+    });
+
+    // 4. Interactive Impact Calculator
+    const spaceButtons = document.querySelectorAll('#calc-space-buttons .space-btn');
+    const outPlastic = document.getElementById('calc-out-plastic');
+    const outWater = document.getElementById('calc-out-water');
+    const outCo2 = document.getElementById('calc-out-co2');
+
+    spaceButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        spaceButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const plastic = btn.getAttribute('data-plastic');
+        const water = btn.getAttribute('data-water');
+        const co2 = btn.getAttribute('data-co2');
+
+        if (outPlastic) outPlastic.textContent = `${plastic} Trays`;
+        if (outWater) outWater.textContent = `${water} Gallons`;
+        if (outCo2) outCo2.textContent = `${co2} kg CO2e`;
+      });
+    });
+
+    // 5. High-Conversion Email Signup Form & Instant Guide Download
+    const signupForm = document.getElementById('email-signup-form');
+    const successBox = document.getElementById('signup-success-box');
+    const successUserName = document.getElementById('success-user-name');
+    const successUserEmail = document.getElementById('success-user-email');
+    const copyCodeBtn = document.getElementById('copy-code-btn');
+    const downloadHandbookBtn = document.getElementById('download-handbook-btn');
+
+    if (signupForm) {
+      signupForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const nameInput = document.getElementById('subscriber-name');
+        const emailInput = document.getElementById('subscriber-email');
+        const nameVal = nameInput ? nameInput.value.trim() : '';
+        const emailVal = emailInput ? emailInput.value.trim() : '';
+
+        if (!emailVal || !emailVal.includes('@')) {
+          showToast('Please enter a valid email address.');
+          return;
+        }
+
+        // Show Success Box
+        signupForm.style.display = 'none';
+        if (successBox) successBox.style.display = 'flex';
+        if (successUserName && nameVal) successUserName.textContent = `Welcome, ${nameVal}!`;
+        if (successUserEmail) successUserEmail.textContent = `We've confirmed ${emailVal} for seasonal dispatches.`;
+
+        showToast('🎉 Welcome! Promo code VERDANT15 and Field Guide unlocked.');
+      });
+    }
+
+    if (copyCodeBtn) {
+      copyCodeBtn.addEventListener('click', () => {
+        navigator.clipboard?.writeText('VERDANT15');
+        showToast('Promo code VERDANT15 copied to clipboard!');
+      });
+    }
+
+    if (downloadHandbookBtn) {
+      downloadHandbookBtn.addEventListener('click', () => {
+        const guideContent = `=====================================================
+VERDANT: ZERO-WASTE REGENERATIVE GARDENING HANDBOOK
+Edition: Spring 2026
+=====================================================
+
+1. LIVING SOIL FORMULA (100% PEAT-FREE)
+- 40% Aged Forest Bark & Leaf Humus
+- 30% Washed Coconut Coir (Buffered)
+- 20% Biochar Inoculated with Bokashi EM-1 Microbes
+- 10% Worm Castings & Endomycorrhizal Fungi
+
+2. WATER PRESERVATION SECRETS
+- Subterranean Ollas deliver water at root level.
+- Save 70% evaporation by mulching 2 inches of barley straw.
+- Gravity drip systems eliminate pump electricity.
+
+3. YOUR 15% WELCOME COUPON:
+Use Code: VERDANT15 at checkout.
+
+Thank you for healing the soil with us!
+Verdant Sustainable Gardening Co.
+`;
+        const blob = new Blob([guideContent], { type: 'text/plain;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'Verdant-Zero-Waste-Field-Guide.txt';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+        showToast('Field Guide downloaded successfully!');
+      });
+    }
+  </script>
+</body>
+</html>
